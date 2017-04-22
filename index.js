@@ -13,7 +13,7 @@ const envs = {
 
 program
   .version('1.0.0')
-  .description('SOS Dep Checker - bernardosecades')
+  .description('SOS Dep Checker (bernardosecades)')
   .option('--env <env>', 'envitorments to check', /^(dev|prod|all)$/i)
   .option('-b, --only-bugs', 'show only bugs')
   .parse(process.argv)
