@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Command line tool for detect bugs in js dependencies",
   "bin": {
-    "dep-security-check": "./index.js"
+    "sos-dep-checker": "./index.js"
   },
   "author": "Bernardo Secades",
   "license": "MIT",
