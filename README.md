@@ -48,8 +48,6 @@ If you want to check outdate dependencies check this tool: [esdeps](https://gith
 
 ## Screenshots
 
-TODO
-
 Command `sos-dep-checker`, `sos-dep-checker --env prod`:
 
 ![sos-dep-checker](https://image.ibb.co/jehxbQ/screen1.png)
