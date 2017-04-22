@@ -17,7 +17,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bernardosecades/sos-dep-checker.git"
+    "url": "git+https://github.com/bernardosecades/sos-dep-checker.git"
   },
-  "homepage": "https://github.com/bernardosecades/sos-dep-checker"
+  "homepage": "https://github.com/bernardosecades/sos-dep-checker",
+  "bugs": {
+    "url": "https://github.com/bernardosecades/sos-dep-checker/issues"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "command-line",
+    "semver",
+    "bug",
+    "dependencies"
+  ]
 }
