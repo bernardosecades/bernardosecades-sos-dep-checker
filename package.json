@@ -1,6 +1,6 @@
 {
   "name": "sos-dep-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line tool for detect bugs in js dependencies",
   "bin": {
     "sos-dep-checker": "./index.js"
