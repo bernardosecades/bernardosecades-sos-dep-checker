@@ -13,13 +13,13 @@ const envs = {
 
 program
   .version('1.0.0')
-  .description('SOS Dep Check')
+  .description('SOS Dep Checker - bernardosecades')
   .option('--env <env>', 'envitorments to check', /^(dev|prod|all)$/i)
   .option('-b, --only-bugs', 'show only bugs')
   .parse(process.argv)
 
 if (program.env === true) {
-  console.log(chalk.red('Ups! Sorry, --env option can only be dev|prod|all'))
+  console.log(chalk.red('--env option can only be dev|prod|all'))
   process.exit(1)
 }
 
